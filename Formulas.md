@@ -4,7 +4,7 @@
 
 k is a scaling factor. Initial thought is that k = 0.1, so that damage dealt at the start is roughly 1/10th of maximum health.
 
-> D := (2 * a.STR - b.def) * k;
+> <pre>D := (2 * a.STR - b.def) * k;</pre>
 
 ## Critical hit chance.
 
