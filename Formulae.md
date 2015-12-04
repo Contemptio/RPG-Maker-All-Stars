@@ -12,7 +12,7 @@ As abilities can be given very varied effects from their formulas being directly
   Both of the aggressor's and defender's involved statistics can be scaled with a constant factor, e for efficiency and m for mitigation, and the entire result is then scaled by its own factor k. It is highly recommended that for most "bread-and-butter" abilities that e > 2 * m so that in most encounters the abilities aren't nullified. The factor k depends on the magnitude of the ability, as well as the factors e and m.
   The entire formula can of course be adjusted up or down with the flat modifier B but this should be avoided in most cases since if used frivolously it might inhibit the scaling in the entire game.
 
-> <pre>E := k * (e * a.STAT - m * b.STAT) + B.
+> <pre>E := k * (e * a.STAT - m * b.STAT) + B.</pre>
 
 ## Statistics Formulae
 ### Health
