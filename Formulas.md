@@ -16,14 +16,14 @@ While it is statically modified by weapon type and PC class, it is also increase
 
 ## Health
 
-Health is a particularly straight-forward statistic and most other formulas are born from how they interact with health. It is therefore set to be 10 * L * k_c, where L is level and k_c ([1,10]) is the pertinent class' scaling factor. 
-  This means that a level 1 character has between 10-100 HP and a level 100 character has between 1000-9999 HP. It is possible that this will be reconsidered, given that health-increasing items could be ineffective for level 100-characters with k_c = 10, albeit this might not be an issue.
+Health is a particularly straight-forward statistic and most other formulas are born from how they interact with health. It is therefore set to be 10 * L * k_h, where L is level and k_h ([1,10]) is the pertinent class' scaling factor. 
+  This means that a level 1 character has between 10-100 HP and a level 100 character has between 1000-9999 HP. It is possible that this will be reconsidered, given that health-increasing items could be ineffective for level 100-characters with k_h = 10, albeit this might not be an issue.
 
-> <pre>HP := 10 * L * k_c</pre>
+> <pre>HP := 10 * L * k_h</pre>
 
 ### Classes' HP scaling factors
 
-| Class   | k_c |
+| Class   | k_h |
 |:--------|:---:|
 |Barbarian|  9  |
 |Ranger   |  6  |
@@ -34,11 +34,11 @@ Health is a particularly straight-forward statistic and most other formulas are 
 
 Mana works along the same reasoning as health, it's just scaled down by a factor 10.
 
-> <pre>MP := L * k_c</pre>
+> <pre>MP := L * k_m</pre>
 
 ### Classes' MP scaling factors
 
-| Class   | k_c |
+| Class   | k_m |
 |:--------|:---:|
 |Barbarian|  3  |
 |Ranger   |  4  |
