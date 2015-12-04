@@ -49,12 +49,13 @@ Mana works along the same reasoning as health, it's just scaled down by a factor
 ## Other statistics (ATK, DEF, MAT, MDF, AGI, LUK)
 
 The statistics (ATK, DEF, MAT, MDF, AGI, LUK) have been renamed (VIG, STA, WIL, SPI, AGI, DEX) respectively. This is a name-change only and aside from LUK, they work as in basic RPG-M.
+  In the below table, "efficiency" denotes damage and healing unless noted otherwise.
 
-| Statistic   |  Acronym  |                           Primary Influence                            | Secondary Influence |
-|:------------|:---------:|:----------------------------------------------------------------------:|:-------------------:|
-|Agility      |    AGI    | Increases action recovery rate.                                        ||
-|Dexterity    |    DEX    | Increases critical strike chance.                                      ||
-|Willpower    |    SPI    | Increases applied magical efficiency (damage and healing).             ||
-|Spirit       |    STA    | Decreases efficiency of received physical effects (damage and healing).||
-|Agility      |    VIG    | Increases applied physical efficiency and damage from auto-attacks.    ||
-|Shaman       |    WIL    | Decreases efficiency of received magical effects (damage and healing). ||
+| Statistic | Acronym |   Primary Influence   | Secondary Influence  |
+|:----------|:-------:|:----------------------|:---------------------|
+| Agility   |   AGI   | Action recovery rate. | Critical hit chance. |
+| Dexterity |   DEX   | Hit chance.           | Evasion.             |
+| Spirit    |   SPI   | Magical efficiency.   | Buff rate.           |
+| Stamina   |   STA   | Physical mitigation.  | Targeted rate.       |
+| Vigour    |   VIG   | Physical efficiency.  | Guard amount.        |
+| Willpower |   WIL   | Magical efficiency.   | Magic evasion.       |
