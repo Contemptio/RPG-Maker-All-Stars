@@ -8,7 +8,7 @@ The statistics (ATK, DEF, MAT, MDF, AGI, LUK) have been renamed (VIG, STA, WIL, 
 |:----------|:-------:|:----------------------|:---------------------|
 | Agility   |   AGI   | Action recovery rate. | Critical hit chance. |
 | Dexterity |   DEX   | Hit chance.           | Evasion.             |
-| Spirit    |   SPI   | Magical efficiency.   | Buff rate.           |
+| Spirit    |   SPI   | Magical mitigation.   | Buff rate.           |
 | Stamina   |   STA   | Physical mitigation.  | Targeted rate.       |
 | Vigour    |   VIG   | Physical efficiency.  | Guard amount.        |
 | Willpower |   WIL   | Magical efficiency.   | Magic evasion.       |
