@@ -46,7 +46,7 @@ Mana works along the same reasoning as health, it's just scaled down by a factor
 |Rogue    |  5  |
 |Shaman   |  7  |
 
-## Other statistics (ATK, DEF, MAT, MDF, AGI, LUK)
+## Other statistics (AGI, ATK, DEF, LUK, MAT, MDF) or (AGI, VIG, STA, DEX, WIL, SPI)
 
 The statistics (ATK, DEF, MAT, MDF, AGI, LUK) have been renamed (VIG, STA, WIL, SPI, AGI, DEX) respectively. This is a name-change only and aside from LUK, they work as in basic RPG-M.
   In the below table, "efficiency" denotes damage and healing unless noted otherwise.
