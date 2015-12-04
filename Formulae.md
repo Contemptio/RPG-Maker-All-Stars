@@ -1,4 +1,4 @@
-# Formulas
+# Formulae
 
 ## Auto-attack damage.
 
@@ -16,7 +16,7 @@ While it is statically modified by weapon type and PC class, it is also increase
 
 ## Health
 
-Health is a particularly straight-forward statistic and most other formulas are born from how they interact with health. It is therefore set to be 10 * L * k_h, where L is level and k_h ([1,10]) is the pertinent class' scaling factor. 
+Health is a particularly straight-forward statistic and most other formulae are born from how they interact with health. It is therefore set to be 10 * L * k_h, where L is level and k_h ([1,10]) is the pertinent class' scaling factor. 
   This means that a level 1 character has between 10-100 HP and a level 100 character has between 1000-9999 HP. A class' starting hp is 10 * k_h and its HP at max level is 1000 * k_h.
   It is possible that this will be reconsidered, given that health-increasing items could be ineffective for level 100-characters with k_h = 10, albeit this might not be an issue.
 
