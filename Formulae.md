@@ -23,29 +23,12 @@ Health is a particularly straight-forward statistic and most other formulae are 
 
 > <pre>HP := 10 * L * k_h</pre>
 
-#### Classes' HP scaling factors
-
-| Class   | k_h |
-|:--------|:---:|
-|Barbarian|  9  |
-|Ranger   |  6  |
-|Rogue    |  4  |
-|Shaman   |  6  |
 
 ### Mana
 
 Mana works along the same reasoning as health, it's just scaled down by a factor 10.
 
 > <pre>MP := L * k_m</pre>
-
-#### Classes' MP scaling factors
-
-| Class   | k_m |
-|:--------|:---:|
-|Barbarian|  3  |
-|Ranger   |  4  |
-|Rogue    |  5  |
-|Shaman   |  7  |
 
 ### Agility
 #### Action recovery rate
