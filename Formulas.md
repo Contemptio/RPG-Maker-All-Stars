@@ -4,7 +4,7 @@
 
 k is a scaling factor. Initial thought is that k = 0.1, so that damage dealt at the start is roughly 1/10th of maximum health.
 
-> <pre>D := (2 * a.STR - b.def) * k;        // k = 0.1 currently.</pre>
+> <pre>D := (2 * a.VIG - b.STA) * k;        // k = 0.1 currently.</pre>
 
 ## Critical hit chance.
 
@@ -45,3 +45,16 @@ Mana works along the same reasoning as health, it's just scaled down by a factor
 |Ranger   |  4  |
 |Rogue    |  5  |
 |Shaman   |  7  |
+
+## Other statistics (ATK, DEF, MAT, MDF, AGI, LUK)
+
+The statistics (ATK, DEF, MAT, MDF, AGI, LUK) have been renamed (VIG, STA, WIL, SPI, AGI, DEX) respectively. This is a name-change only and aside from LUK, they work as in basic RPG-M.
+
+| Statistic   |  Acronym  |                           Primary Influence                            | Secondary Influence |
+|:------------|:---------:|:----------------------------------------------------------------------:|:-------------------:|
+|Agility      |    AGI    | Increases action recovery rate.                                        ||
+|Dexterity    |    DEX    | Increases critical strike chance.                                      ||
+|Willpower    |    SPI    | Increases applied magical efficiency (damage and healing).             ||
+|Spirit       |    STA    | Decreases efficiency of received physical effects (damage and healing).||
+|Agility      |    VIG    | Increases applied physical efficiency and damage from auto-attacks.    ||
+|Shaman       |    WIL    | Decreases efficiency of received magical effects (damage and healing). ||
